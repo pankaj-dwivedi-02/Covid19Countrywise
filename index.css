@@ -1,0 +1,166 @@
+.country-names{
+   
+    
+    display: inline-flex;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.headings{
+    margin-left: 60px;
+
+}
+
+
+.confirm{
+    
+    
+    margin-left: 60px;
+    background: rgba(255,7,58,.6);
+    padding: 10px;
+}
+
+.confirm:hover{
+    
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
+
+
+.recovered{
+ 
+    margin-left: 60px;
+    background: rgba(40,167,69,.6);
+    padding: 10px;
+}
+
+.recovered:hover{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+
+}
+
+.deaths{
+  
+    margin-left: 60px;
+    background: #d4dfde;
+    padding: 10px;
+}
+
+.deaths:hover{
+    
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.search-container {
+    border-radius: 30px;
+    position: absolute;
+    z-index: 100;
+    top: 45px;
+    right: 100px;
+    width: 250px;
+    height: 40px;
+    background-color:  #f4f4f4;;
+    display: flex;
+    border: 2px solid #ccc;
+}
+
+.search-container .search {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search-container input {
+    width: 100%;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.search-container input:focus {
+    outline: none;
+}
+
+.search i {
+    font-size: 15px;
+    color: black;
+}
+
+
+#outerdiv{
+    display: inline-grid;
+    margin-top: 30px;
+}
+
+#outerdiv h6{
+    
+    text-align: center;
+}
+
+
+.data-heading{
+    
+    text-align: center;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 1100px;
+}
+
+
+.total-confirm{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255,7,58,.6);
+}
+
+.total-recovered{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(40,167,69,.6);
+}
+
+.total-deaths{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #d4dfde;
+}
+
+.total-confirm:hover{
+    
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.total-recovered:hover{
+    
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.total-deaths:hover{
+    
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
+
+footer{
+    background: #f4f4f4;
+    margin-left: 60px;
+    
+    width: 1100px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
