@@ -12,14 +12,19 @@ function loadcont(){
             var countries = JSON.parse(this.responseText);
             var output = '';
             for(var i in countries){
+                var active = (countries[i][Object.keys(countries[i]).length-1].confirmed - countries[i][Object.keys(countries[i]).length-1].recovered - countries[i][Object.keys(countries[i]).length-1].deaths);
+                var confirmed = countries[i][Object.keys(countries[i]).length-1].confirmed;
+                var recovered = countries[i][Object.keys(countries[i]).length-1].recovered;
+                var deaths = countries[i][Object.keys(countries[i]).length-1].deaths;
                 output += 
             '<div class="country-names">' +
                 
                 '<div class="innerdiv">'+
                 '<h3 class="headings">'+i+'</h3>'+
-                '<div class="confirm">Confirm: '+countries[i][Object.keys(countries[i]).length-1].confirmed+'</div>'+
-                '<div class="recovered">Recovered: '+countries[i][Object.keys(countries[i]).length-1].recovered+'</div>'+
-                '<div class="deaths">Deaths: '+countries[i][Object.keys(countries[i]).length-1].deaths+'</div>'+
+                '<div class="confirm">Confirm: '+confirmed+'</div>'+
+                '<div class="active">Active: '+active+'</div>'+
+                '<div class="recovered">Recovered: '+recovered+'</div>'+
+                '<div class="deaths">Deaths: '+deaths+'</div>'+
                 '</div>'+
             '</div>';
             }
