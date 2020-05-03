@@ -1,10 +1,26 @@
+body{
+    margin: 0;
+    
+}
+.container{
+    overflow: auto;
+    display: flex;
+}
 .country-names{
    
     
     display: inline-flex;
-    background: #f4f4f4;
+    
+    background: black;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.content-section{
+  
+    
+    width: 1100px;
+    background: black;
 }
 
 
@@ -12,23 +28,33 @@
 
 .headings{
     margin-left: 60px;
+    color: #ebf2f5;
 
 }
 
 
 .confirm{
-    
-    
+        
     margin-left: 60px;
-    background: rgba(255,7,58,.6);
+    background: #b12245;
     padding: 10px;
 }
 
 .confirm:hover{
     
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px blue;
 }
 
+.active{
+    margin-left: 60px;
+    background: rgba(153, 167, 248, 0.6);
+    padding: 10px;
+
+}
+
+.active:hover{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px blue;
+}
 
 .recovered{
  
@@ -38,7 +64,7 @@
 }
 
 .recovered:hover{
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px blue;
 
 }
 
@@ -51,7 +77,7 @@
 
 .deaths:hover{
     
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px blue;
 }
 
 .search-container {
@@ -62,7 +88,7 @@
     right: 100px;
     width: 250px;
     height: 40px;
-    background-color:  #f4f4f4;;
+    background-color:  #ebf2f5;;
     display: flex;
     border: 2px solid #ccc;
 }
@@ -84,7 +110,7 @@
 }
 
 .search-container input:focus {
-    outline: none;
+    outline: blue;
 }
 
 .search i {
@@ -96,6 +122,7 @@
 #outerdiv{
     display: inline-grid;
     margin-top: 30px;
+    
 }
 
 #outerdiv h6{
@@ -107,60 +134,33 @@
 .data-heading{
     
     text-align: center;
-    background: #f4f4f4;
+    background: #061a1f;
     padding: 10px;
     margin-bottom: 10px;
     height: 100px;
     width: 1100px;
-}
-
-
-.total-confirm{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background:rgba(255,7,58,.6);
-}
-
-.total-recovered{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(40,167,69,.6);
-}
-
-.total-deaths{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: #d4dfde;
-}
-
-.total-confirm:hover{
+    color: #ebf2f5;
     
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
 }
 
-.total-recovered:hover{
-    
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
-}
 
-.total-deaths:hover{
-    
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
-}
+
 
 footer{
-    background: #f4f4f4;
-    margin-left: 60px;
     
-    width: 1100px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    background: #061a1f;
+    margin-left: 60px;
+    height: 80px;
+    color: #ebf2f5;
+    width: 100%;
 }
 
 .footer-logo{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
